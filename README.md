@@ -22,7 +22,7 @@ To install this program users can clone this repo to their local machine. Once c
 </ul>
 
 ## Usage
-This application is a simple budget tracker where users can track their expenses and deposits. Users can give a reason for the expense or deposit and set a value to it which will be added to a list of expenses or deposits, as well as a graph that shows their budgets fluctuations. 
+This application is a simple budget tracker where users can track their expenses and deposits. Users can give a reason for the expense or deposit and set a value to it which will be added to a list of other expenses or deposits, as well as a graph that shows their budgets fluctuations. 
 
 ## Live Application
 
