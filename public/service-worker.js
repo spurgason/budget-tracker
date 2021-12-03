@@ -3,10 +3,12 @@ const VERSION = 'version_01';
 const CACHE_NAME = APP_PREFIX + VERSION;
 
 const FILES_TO_CACHE = [
+    "/",
     "/index.html",
     "/css/styles.css",
     "/js/idb.js",
-    "/js/index.js"
+    "/js/index.js",
+    "/manifest.json"
 ];
 
 // installs the files so they can be used
