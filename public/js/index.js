@@ -1,9 +1,10 @@
 let transactions = [];
 let myChart;
 
-fetch("https://fast-spire-15067.herokuapp.com/api/transaction")
+ async function fetchUrl() {
+  fetch("https://fast-spire-15067.herokuapp.com/api/transaction")
   .then(response => {
-    return response.json();
+    return await response.json();
   })
   .then(data => {
     // save db data on global variable
@@ -13,6 +14,8 @@ fetch("https://fast-spire-15067.herokuapp.com/api/transaction")
     populateTable();
     populateChart();
   });
+}
+
 
 function populateTotal() {
   // reduce transaction amounts to a single total value
@@ -151,3 +154,5 @@ document.querySelector("#add-btn").onclick = function() {
 document.querySelector("#sub-btn").onclick = function() {
   sendTransaction(false);
 };
+
+fetchUrl()

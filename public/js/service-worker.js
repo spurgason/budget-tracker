@@ -8,7 +8,8 @@ const FILES_TO_CACHE = [
     "/css/styles.css",
     "/js/idb.js",
     "/js/index.js",
-    "/manifest.json"
+    "/manifest.json", 
+    "./routes/api.js"
 ];
 
 // installs the files so they can be used
