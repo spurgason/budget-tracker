@@ -138,4 +138,4 @@ Project Link: [https://github.com/spurgason/budget-tracker](https://github.com/s
 [github-shield]: https://img.shields.io/badge/-GitHub-black.svg?style=for-the-badge&logo=github&colorB=555
 [github-url]: https://github.com/spurgason
 
-[product-screenshot]: public/images/budget-tracker-example.png
+[product-screenshot]: public/images/budget-tracker-example.PNG
